@@ -19,3 +19,8 @@ enum Size {Small=1, Medium, Large} //compiler will automatically set the values 
 <br> "const" with enum generates more optimized code in the js form.<br>
 <br><br>
 <b>Functions:</b>
+"noUnusedParameter":true   in tsconfig.json file to make it more strict.
+<br>
+"noImplicitReturn":true   in tsconfig.json file to make reminder if we forgot to return properly function.<br>
+"noUnusedLocals": true,    in tsconfig.json file to make sure there is no unused variables.<br>
+
