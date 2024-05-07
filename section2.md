@@ -13,4 +13,9 @@ let num:number[] = [1,2,3,4];
 <br>
 let user:[number, string] = [1, 'Rupam']
 <br>
-33.08
+<b>Enum:</b><br>
+enum Size {Small='s', Medium='m', Large='l'}<br>
+enum Size {Small=1, Medium, Large} //compiler will automatically set the values of other enums
+<br> "const" with enum generates more optimized code in the js form.<br>
+<br><br>
+<b>Functions:</b>
