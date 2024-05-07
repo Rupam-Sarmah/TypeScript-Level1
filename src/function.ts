@@ -9,7 +9,7 @@ function calculator(income:number):number{
 
     //for the income variable to make unambiguous, need to make the "noUnusedParameter":true
     //"noImplicitReturns": true,    if we make a conflict in return or forgot to return from a function.
-    return 0;
+    return income;
 }
 function calc(income:number, tax?:number):number{
     return income+(tax || 2);
