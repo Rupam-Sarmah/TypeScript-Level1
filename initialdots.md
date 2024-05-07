@@ -3,4 +3,5 @@ To configure typescript, command is "tsc --init". It will show the configuration
 we enable <b>"sourceMap": true,</b> for enable debugg mode in typescript.
 <br><br>
 
-To open the Launch program, click on debugger panel in the vsc and view launch.json.
+To open the Launch program, click on debugger panel in the vsc and view launch.json.<br>and<br>
+Add  "preLaunchTask": "tsc: build - tsconfig.json", just after the "program": "${workspaceFolder}\\src\\index.ts",<br><br><br>
