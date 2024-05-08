@@ -10,4 +10,4 @@
 
 <br><br>
 <b>Type aliases</b>
-48.34
+DRY principle: Don't Repeat yourself<br>
