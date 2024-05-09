@@ -47,4 +47,23 @@ let textbox : UIwidget = {
 
 //EO Intersection type
 //Now Literal Types
-54.48
+//Literals(exact, specific)
+let quantity : 50 | 100 =100;
+//or
+type Quantity =50 |100;
+let qty:Quantity=100;
+
+//nullable types
+function greet(name : string | null |undefined){
+    if(name){
+        console.log(name.toUpperCase());
+    }else{
+        console.log("hola");
+    }
+}
+
+greet(null); // without the union operator in the function defination, we can't use this null.
+greet(undefined);  // without the union operator in the function defination, we can't use this undefined.
+
+
+//Optional chaining
