@@ -67,3 +67,4 @@ greet(undefined);  // without the union operator in the function defination, we 
 
 
 //Optional chaining
+//
